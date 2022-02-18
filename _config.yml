@@ -115,4 +115,4 @@ comments:
     theme: "github-light" # "github-dark"
     issue_term: "pathname"
 
-theme: jekyll-theme-cayman
+remote_theme: jekyll-theme-cayman
