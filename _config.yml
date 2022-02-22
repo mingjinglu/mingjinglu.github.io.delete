@@ -24,7 +24,8 @@ search: true
 
 # Build settings
 markdown: kramdown
-# remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes
+# remote_theme: jekyll-theme-cayman
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -114,5 +115,3 @@ comments:
   utterances:
     theme: "github-light" # "github-dark"
     issue_term: "pathname"
-
-remote_theme: jekyll-theme-cayman
