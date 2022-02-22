@@ -25,7 +25,7 @@ search: true
 # Build settings
 markdown: kramdown
 # remote_theme: mmistakes/minimal-mistakes
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -33,7 +33,6 @@ paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 repository: mingjinglu/mingjinglu.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-
 
 include:
   - _pages
@@ -58,6 +57,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme 
 
 author:
   name   : "mingjing"
