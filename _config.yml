@@ -114,3 +114,5 @@ comments:
   utterances:
     theme: "github-light" # "github-dark"
     issue_term: "pathname"
+
+theme: jekyll-theme-minimal
